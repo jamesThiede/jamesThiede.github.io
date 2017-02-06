@@ -10,3 +10,12 @@ html {
   padding: 0;
   background-color: black;
 }
+a {
+  color: #440084;
+}
+a:hover {
+  color: #f600ff;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,1 @@
+This website is a school project. I DO NOT own any of the images or songs on this site. If you are the owner of a song or image on this site.

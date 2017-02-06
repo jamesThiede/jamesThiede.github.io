@@ -20,6 +20,12 @@ h2 {
   margin-top: 0;
   padding: 0;
 }
+a {
+  color: #0cbccc;
+}
+a:hover {
+  color: #6300c6;
+}
 main {
   margin: auto;
   padding-top: 50px;

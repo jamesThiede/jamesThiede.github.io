@@ -29,6 +29,12 @@ main h1 {
   padding-right: 15px;
   padding-top: 10px;
 }
+main a {
+  color: #0156c4;
+}
+main a:hover {
+  color: #ef00db;
+}
 body {
   margin: 0;
 }

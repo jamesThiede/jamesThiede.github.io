@@ -1,0 +1,12 @@
+main img {
+  margin: auto;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Hello World</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Custom styles for this template -->
+        <link href="jumbotron-narrow.css" rel="stylesheet">
+        <script>
+            function unhide() {
+                // No hacks plz
+                var x = document.getElementById('protected');
+                var y = document.getElementById('password').value;
+                if (y === "Password123") {
+                    alert("Content Unlocked");
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="header clearfix">
+                <h3 class="text-muted">睡眠 日記 の ジェームズ</h3>
+            </div>
+            <div class="jumbotron">
+                <h1>Things I Have Tried for Sleeping</h1>
+                <p class="lead">This page was created to share the things I have tried to help me sleep.</p>
+                <p class="lead">Please enter the password to view the list.</p>
+                <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                <p><a class="btn btn-info" onclick="unhide();" id="view" role="button">View List</a></p>
+            </div>
+            <div id="protected">
+                <blockquote class="blockquote">
+                    <p class="mb-0">"This site does not need a quote, but I found this quote format online and wanted to see how cool it looked on a website."</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">James Thiede</cite></footer>
+                </blockquote>
+                <p class="words">While I am almost certain that I am forgetting a few things, I think this list is certainly a good start.</p>
+                <div class="row marketing">    
+                    <h4>Meditation</h4>
+                    <p>Woo! You may be aware of the fact that I am all about the meditation life. I am not sure why this hasn't helped, probably due to not setting up a set schedule and sticking to it.</p>
+
+                    <h4>Not using electronics X number of hours before bed</h4>
+                    <p>Science says that its bad to look at screens before bed. I can neither confirm nor deny that this technique works as I am hopelessly addicted to electronics. It also doesn't help that I spend a minimum of 8 hours a day staring at a screen for work.</p>
+
+                    <h4>Reading</h4>
+                    <p>A good alternative to staring at my computer or phone. Reading tends to wake my brain up so it is kind of counter-productive.</p>
+
+                    <h4>Avoiding caffeine</h4>
+                    <p>"Experts" say not to drink caffeine past 2 pm to get a good nights sleep. I have noticed that if I drink past 11 am I am going to be wired all night. I try to control my caffeine usage and usually I am pretty good at it. Where it becomes an issue is when I didn't get any sleep and I'm tired so I drink caffeine to get me through the day but them I'm up all night again and then I need to drink caffeine the next day to get me through the day but...</p>
+
+                    <h4>Exercise</h4>
+                    <p>I usually stay pretty active. Lately that has involved doing lots of bike riding. In the past (And potentially future if I can handle waking up early) I have been on some pretty good gym schedules. I find that no matter what time I workout at, I become really energetic all day, and well past bed time.</p>
+
+                    <h4>Sticking to a consistent sleep schedule</h4>
+                    <p>Does not help.</p>
+
+                    <h4>Eliminating naps</h4>
+                    <p>I have tried this. The entire first semester of the WOS program I did not take a single nap, weekdays or weekends. I still could not sleep. I love naps.</p>
+
+                    <h4>Drinking chamomile tea</h4>
+                    <p>This is supposed to help. While I love tea, I have not found it to help. Good news is I'm willing to try to continue drinking tea in efforts to help me sleep because I'll never say no to more tea.</p>
+
+                    <h4>Getting out of bed when unable to sleep</h4>
+                    <p>According to the "experts," one should only be in bed when they are sleeping. So I have tried the whole get-out-of-bed-and-do-something-productive-when-you-can't-sleep thing, but that leads to me staying up all night and not getting any sleep at all.</p>
+                </div>
+                <p class="words">This exercise here has helped in that it has allowed me to reflect on what methods I have tried and has got me thinking on why I was unsuccessful. While a lack of proper documentation is certainly not helping identify specific reasons for failure, I am noticing that I probably have a strong lack of commitment to almost all of these techniques. That being said, I feel like this was a good first step. I think this new project of yours might actually work!</p>
+            </div>
+            <footer class="footer">
+                <p>&copy; A <a href="https://jamesthiede.github.io/home.html">TokyoRetroExcellent</a> Webpage</p>
+            </footer>
+
+        </div> <!-- /container -->
+    </body>
+</html>
